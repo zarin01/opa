@@ -1,0 +1,65 @@
+.croppie-image-wrapper {
+
+  position: relative;
+
+  &__actions {
+    bottom: 8px;
+    color: #aaa;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    text-shadow: 1px 1px 3px #333;
+  }
+
+  &__edit,
+  &__download {
+    color: #FFF !important;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+}
+
+.opa-croppie {
+
+  background: #FFF;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.5s ease-in;
+  width: 100%;
+
+  &--visible {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.5s ease-in;
+
+    .opa-croppie__actions {
+      display: flex;
+    }
+  }
+
+  &__bind {
+
+  }
+
+  &__actions {
+    display: none;
+    justify-content: center;
+    margin-top: 30px;
+
+    button {
+      margin: 0 5px !important;
+    }
+  }
+
+}
+
+.croppie-container {
+  height: auto;
+}

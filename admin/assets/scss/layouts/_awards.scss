@@ -1,0 +1,32 @@
+.opa-award-add-form {
+
+  &__title {
+
+  }
+
+  &__description {
+
+  }
+
+  &__value {
+
+  }
+
+  input[type="text"],
+  textarea {
+    max-width: 100%;
+    width: 450px;
+  }
+
+  label {
+    display: block;
+    font-weight: 700;
+    margin: 15px 0 5px 0;
+  }
+
+  input[type="submit"] {
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+}

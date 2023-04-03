@@ -1,0 +1,16 @@
+.opa-inline-form {
+
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 15px;
+
+  button {
+    cursor: pointer;
+    float: left;
+  }
+}
+input#average-score-filter {
+  float: left;
+  margin-right: 20px;
+  line-height: 2.1;
+}

@@ -1,0 +1,74 @@
+.opa-profile {
+
+  margin-top: 50px;
+
+  &__group {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    > div:first-child {
+      padding-left: 0;
+    }
+
+    > div:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__shows {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  &__painting-show,
+  &__painting-status {
+    margin-bottom: 15px;
+  }
+
+  &__update-button {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+
+  &__note {
+    font-size: 12px;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+  }
+
+  textarea {
+    min-height: 150px;
+  }
+
+  input[type="file"] {
+
+  }
+
+  .opa-table {
+    font-size: 16px;
+  }
+
+  .opa-table__td {
+    vertical-align: top;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-top: 30px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+}

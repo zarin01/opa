@@ -1,0 +1,223 @@
+.opa-artwork-edit input[type="text"],
+.opa-artwork-edit textarea {
+  max-width: 100%;
+  width: 450px; }
+
+.opa-artwork-edit label {
+  display: block;
+  font-weight: 700;
+  margin: 15px 0 5px 0; }
+
+.opa-artwork-edit input[type="submit"] {
+  display: inline-block;
+  margin-top: 30px; }
+
+.opa-award-add-form input[type="text"],
+.opa-award-add-form textarea {
+  max-width: 100%;
+  width: 450px; }
+
+.opa-award-add-form label {
+  display: block;
+  font-weight: 700;
+  margin: 15px 0 5px 0; }
+
+.opa-award-add-form input[type="submit"] {
+  display: inline-block;
+  margin-top: 30px; }
+
+.opa-admin-breadcrumb ul {
+  display: block;
+  list-style: none; }
+
+.opa-admin-breadcrumb li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 5px; }
+  .opa-admin-breadcrumb li:first-child {
+    padding-left: 0; }
+  .opa-admin-breadcrumb li:after {
+    content: '>';
+    padding-left: 5px; }
+  .opa-admin-breadcrumb li:last-child:after {
+    content: ''; }
+
+.croppie-image-wrapper {
+  position: relative; }
+  .croppie-image-wrapper__actions {
+    bottom: 8px;
+    color: #aaa;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    text-shadow: 1px 1px 3px #333; }
+  .croppie-image-wrapper__edit, .croppie-image-wrapper__download {
+    color: #FFF !important;
+    display: inline-block;
+    text-decoration: none; }
+
+.opa-croppie {
+  background: #FFF;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.5s ease-in;
+  width: 100%; }
+  .opa-croppie--visible {
+    opacity: 1;
+    pointer-events: all;
+    transition: opacity 0.5s ease-in; }
+    .opa-croppie--visible .opa-croppie__actions {
+      display: flex; }
+  .opa-croppie__actions {
+    display: none;
+    justify-content: center;
+    margin-top: 30px; }
+    .opa-croppie__actions button {
+      margin: 0 5px !important; }
+
+.croppie-container {
+  height: auto; }
+
+.opa-inline-form {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-right: 15px; }
+  .opa-inline-form button {
+    cursor: pointer;
+  float: left;}
+
+input#average-score-filter {
+  float: left;
+  margin-right: 20px;
+  line-height: 2.1;
+}
+
+.small .opa-show-dashboard__option:before {
+  background-size: 35px;
+}
+
+.opa-show-dashboard__options.small .opa-show-dashboard__option {
+  padding: 100px 10px 10px 10px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.opa-show-dashboard__options.small {
+  justify-content: start;
+}
+
+.opa-artist-trigger-refund input[type="text"] {
+  font-size: 12px;
+  height: 22px;
+  line-height: 22px;
+  width: 80px; }
+
+.opa-refund-form {
+  display: none; }
+
+.opa-show-dashboard__options {
+  display: flex;
+  justify-content: space-between; }
+
+.opa-show-dashboard__option {
+  border: 1px solid #777;
+  border-radius: 10px;
+  padding: 150px 10px 10px 10px;
+  position: relative;
+  width: 18%; }
+  .opa-show-dashboard__option:before {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -45px;
+    height: 90px;
+    width: 100%;
+    left: 0;
+    right: 0; }
+
+.opa-show-dashboard__option--awards:before {
+  background-image: url("../images/icon-awards.png"); }
+
+.opa-show-dashboard__option--artists:before {
+  background-image: url("../images/icon-artists.png"); }
+
+.opa-show-dashboard__option--artwork:before {
+  background-image: url("../images/icon-artwork.png"); }
+
+.opa-show-dashboard__option--jurors:before {
+  background-image: url("../images/icon-jurors.png"); }
+
+.opa-show-dashboard__option--jury-rounds:before {
+  background-image: url("../images/icon-jury-rounds.png"); }
+
+.opa-show-dashboard__option--reports:before {
+  background-image: url("../images/icon-reports.png"); }
+
+.juror-search-results {
+  margin-top: 15px; }
+  .juror-search-results h3 {
+    margin-top: 5px; }
+    .juror-search-results h3 span {
+      font-size: 10px; }
+  .juror-search-results__results {
+    background: #eee;
+    border: 1px solid #777;
+    height: 100px;
+    margin: 0;
+    max-height: 350px;
+    overflow: auto;
+    padding: 0;
+    width: 500px; }
+  .juror-search-results__result, .juror-search-results__noresult {
+    color: #000;
+    list-style: none;
+    margin: 0;
+    padding: 4px 10px; }
+  .juror-search-results__result {
+    cursor: pointer; }
+    .juror-search-results__result:hover {
+      background: #007cba;
+      color: #FFF; }
+
+.opa-table-wrapper {
+  overflow: auto;
+  width: 100%; }
+
+.opa-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb; }
+  .opa-table__thead {
+    background-color: #e0e0e0;
+    color: #000;
+    text-align: left;
+    vertical-align: bottom; }
+  .opa-table__th, .opa-table__td {
+    border-left: 1px solid #cbcbcb;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    font-size: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 0.5em 1em; }
+  .opa-table__expand {
+    color: #0073aa;
+    cursor: pointer; }
+
+.opa-admin-wrap {
+  min-height: calc(100vh - 140px);
+  position: relative; }

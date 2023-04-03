@@ -1,0 +1,43 @@
+.opa-accordion {
+
+  &__item {
+
+  }
+
+  &__title {
+    background: #eee;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 30px;
+
+    &:hover {
+      background: #0A246A;
+      color: #FFF;
+    }
+  }
+
+  &__content {
+    border: 1px solid #eee;
+    border-top: none;
+    display: none;
+    padding: 10px;
+
+    > div {
+      flex: 1;
+      padding: 15px;
+    }
+  }
+
+  &__item--active {
+    .opa-accordion {
+      &__title {
+        background: #0A246A;
+        color: #FFF;
+      }
+      &__content {
+        display: flex;
+      }
+    }
+  }
+
+}

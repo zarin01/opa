@@ -1,0 +1,53 @@
+.opa-list-artwork {
+
+  &__title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-decoration: underline;
+  }
+
+  &__arts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__art {
+    margin-top: 20px;
+    width: 45%;
+  }
+
+  &__art-photo {
+
+  }
+
+  &__art-info {
+    margin-top: 10px;
+  }
+
+  &__art-info-name {
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  &__art-info-description {
+    font-size: 14px;
+  }
+
+}
+
+/**
+<div class="opa-list-artwork__art">
+    <div class="opa-list-artwork__art-photo">
+        <?php echo esc_html( $art['painting_name'] ) ?>
+    </div>
+    <div class="opa-list-artwork__art-info">
+        <div class="opa-list-artwork__art-info-name">
+            <?php echo esc_html( $art['painting_name'] ) ?>
+        </div>
+        <div class="opa-list-artwork__art-info-description">
+            <?php echo esc_html( $art['painting_description'] ) ?>
+        </div>
+    </div>
+</div>
+ */

@@ -1,0 +1,90 @@
+.opa-registration {
+
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+
+  &__group {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    > div:first-child {
+      padding-left: 0;
+    }
+
+    > div:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__firstname {
+    padding-bottom: 20px;
+  }
+
+  &__lastname {
+    padding-bottom: 20px;
+  }
+
+  &__email {
+    padding-bottom: 20px;
+  }
+
+  &__address {
+    padding-bottom: 20px;
+  }
+
+  &__city {
+    padding-bottom: 20px;
+  }
+
+  &__state {
+    padding-bottom: 20px;
+  }
+
+  &__zip {
+    padding-bottom: 20px;
+  }
+
+  &__subscription {
+
+    padding-bottom: 20px;
+
+    label {
+      font-weight: 700;
+    }
+
+  }
+
+  &__subscription-price {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  &__submit {
+    background-color: #0066cc;
+    color: #FFF;
+    cursor: pointer;
+    cursor: hand;
+    padding: 5px 20px;
+  }
+
+  form {
+    max-width: 100%;
+    width: 800px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  #card {
+    margin-bottom: 20px;
+  }
+
+}

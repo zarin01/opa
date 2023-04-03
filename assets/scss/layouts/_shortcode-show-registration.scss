@@ -1,0 +1,127 @@
+.opa-show-registration {
+
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+
+  &__group {
+    display: flex;
+    width: 100%;
+
+    > div {
+      flex: 1;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    > div:first-child {
+      padding-left: 0;
+    }
+
+    > div:last-child {
+      padding-right: 0;
+    }
+  }
+
+  &__error {
+    color: red;
+    font-size: 12px;
+    margin: 8px 0;
+  }
+
+  &__address,
+  &__city,
+  &__state,
+  &__zip,
+  &__painting-name,
+  &__painting-description,
+  &__painting-file,
+  &__painting-price {
+    padding-bottom: 20px;
+  }
+
+  &__art {
+    background: #efefef;
+    padding: 25px;
+    margin-bottom: 25px;
+  }
+
+  &__product {
+
+    padding-bottom: 20px;
+
+    label {
+      font-weight: 700;
+    }
+
+  }
+
+  &__product-price {
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  &__payment-title {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  &__note {
+    font-size: 13px;
+  }
+
+  &__terms {
+    margin-top: 15px;
+
+    label {
+      padding-left: 4px;
+    }
+  }
+
+  &__terms-src {
+    border: 1px dashed #777;
+    display: none;
+    height: 0;
+    margin-top: 25px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 25px;
+    transition: all 0.5s ease;
+
+    &--show {
+      display: block;
+      height: auto;
+      opacity: 1;
+      transition: height,opacity 0.5s ease;
+    }
+  }
+
+  &__submit {
+    background-color: #FFF;
+    color: #a39271;
+    cursor: pointer;
+    cursor: hand;
+    padding: 5px 20px;
+    margin: 0 0 2em;
+  }
+
+  form {
+    max-width: 100%;
+    width: 800px;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  textarea {
+    font-size: 14px;
+  }
+
+  #card {
+    margin-bottom: 20px;
+  }
+
+}

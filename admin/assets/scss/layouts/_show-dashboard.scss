@@ -1,0 +1,66 @@
+.opa-show-dashboard {
+
+  &__options {
+    display: flex;
+    justify-content: start;
+  }
+
+  &__option {
+    border: 1px solid #777;
+    border-radius: 10px;
+    padding: 70px 10px 20px 10px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+
+    &:before {
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 35px;
+      content: '';
+      position: absolute;
+      top: 40%;
+      margin-top: -45px;
+      height: 90px;
+      width: 100%;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  &__option--awards:before {
+    background-image: url("../images/icon-awards.png");
+  }
+
+  &__option--artists:before {
+    background-image: url("../images/icon-artists.png");
+  }
+
+  &__option--artwork:before {
+    background-image: url("../images/icon-artwork.png");
+  }
+
+  &__option--jurors:before {
+    background-image: url("../images/icon-jurors.png");
+  }
+
+  &__option--jury-rounds:before {
+    background-image: url("../images/icon-jury-rounds.png");
+  }
+
+  &__option--reports:before {
+    background-image: url("../images/icon-reports.png");
+  }
+
+}
+.opa-show-admin-controls-wrapper {
+
+  select#average-score-filter-by {
+    float: left;
+    margin-right: 1em;
+    height: 32px;
+  }
+}

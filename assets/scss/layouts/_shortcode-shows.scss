@@ -1,0 +1,52 @@
+.opa-show-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.opa-show {
+  display: flex;
+  margin-bottom: 2em;
+
+  &__image {
+    flex: 1;
+    padding-top: 1em;
+  }
+
+  &__info {
+    flex: 3;
+    padding: 20px 40px;
+  }
+
+  &__info-title {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__info-description {
+    font-size: 17px;
+    margin-bottom: 20px;
+    max-width: 100%;
+    width: 500px;
+  }
+
+  &__info-location {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  &__info-days {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+  &__register {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+
+    a {
+      font-size: 16px;
+    }
+  }
+
+}

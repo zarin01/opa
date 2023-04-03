@@ -1,0 +1,42 @@
+.juror-search-results {
+
+  margin-top: 15px;
+
+  h3 {
+    margin-top: 5px;
+    span {
+      font-size: 10px;
+    }
+  }
+
+  &__results {
+    background: #eee;
+    border: 1px solid #777;
+    height: 100px;
+    margin: 0;
+    max-height: 350px;
+    overflow: auto;
+    padding: 0;
+    width: 500px;
+  }
+
+  &__result,
+  &__noresult {
+    color: #000;
+    list-style: none;
+    margin: 0;
+    padding: 4px 10px;
+  }
+
+  &__result {
+    cursor: pointer;
+    &:hover {
+      background: #007cba;
+      color: #FFF;
+    }
+  }
+}
+
+.jurors-connected-to-show {
+
+}
